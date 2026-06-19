@@ -1,0 +1,32 @@
+# SearchService - Python dependencies (Phase 1)
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# Data validation
+pydantic>=2.0
+
+# Search foundations (uncomment as needed for full semantic search)
+# whoosh
+# sentence-transformers
+# chromadb
+
+# Optional: for advanced RAG / agent orchestration
+# langchain
+# llama-index
+
+# HTTP client for mesh/blockchain integrations
+httpx
+
+# Async support (uvicorn includes some)
+# asyncio is stdlib
+
+# Monitoring / logging (integrate with Nexus tools)
+# prometheus-client
+# structlog
+
+# Development / testing
+# pytest
+# pytest-asyncio
+# black
+# ruff
